@@ -9,7 +9,7 @@
 """
 # Checks if email is valid with a valid domain & top level domain (tld)
 def ValidEmail(email, valid_domains=None, valid_topleveldomains=None):
-    valid_domains = ["gmail", "outlook", "hotmail", "yahoo", "dubaicollege"] if valid_domains is None else valid_domains
+    valid_domains = ["gmail", "outlook", "hotmail", "yahoo"] if valid_domains is None else valid_domains
     valid_topleveldomains = [".com", ".co.uk", ".org", ".net"] if valid_topleveldomains is None else valid_topleveldomains
 
     for tld in valid_topleveldomains:
